@@ -21,3 +21,5 @@ fcc-extension/config/extension.env
 fcc-extension/config/deploy.log
 fcc-extension/config/proxy/*.toml
 !fcc-extension/config/proxy/*.example
+
+.vercel

@@ -52,24 +52,23 @@ The completed policy is `0xc9009d55516e0bcb07cfd9335353194bf6f6205ec7b689ba68408
 
 ## Product screenshots
 
-The product screenshot captures are pending because an interactive browser renderer was unavailable during the final build pass. The exact non-fabricated files required are documented in [`docs/screenshots/README.md`](docs/screenshots/README.md):
+The product screenshot captures are shown below:
 
-| Surface | Required file | Status |
-|---|---|---|
-| Landing / Hero | `docs/screenshots/aurelith-hero.png` | PENDING CAPTURE |
-| Policy Creation | `docs/screenshots/aurelith-policy.png` | PENDING CAPTURE |
-| Proof / Evidence | `docs/screenshots/aurelith-proof.png` | PENDING CAPTURE |
-| Security / Boundaries | `docs/screenshots/aurelith-security.png` | PENDING CAPTURE |
+| Accountability Details | Seettlement Dashboard |
+|:---:|:---:|
+| <img src="docs/screenshots/aurelith-accountability.png" alt="Accountability="100%" /> | <img src="docs/screenshots/aurelith-settlement.png" alt="Settlement" width="100%" /> |
+| **Proof Dashboard** | **Security Dashboard** |
+| <img src="docs/screenshots/aurelith-proof.png" alt="Proof Dashboard" width="100%" /> | <img src="docs/screenshots/aurelith-security.png" alt="Security Dashboard" width="100%" /> |
 
 ## Live links
 
 | Resource | URL | Purpose |
 |---|---|---|
-| Local application | [http://localhost:3000](http://localhost:3000) | AURELITH frontend and protocol console |
+| Live Demo | [https://aurelith-one.vercel.app/](https://aurelith-one.vercel.app/) | AURELITH frontend and protocol console |
+| Video Demo | [Youtube](https://youtu.be/bL49q5EYiUw?si=808c8lvU16J_OMvJ) | AURELITH video Presentation |
 | GitHub repository | [github.com/0xkinno/aurelith](https://github.com/0xkinno/aurelith) | Source, contracts and documentation |
 | Coston2 explorer | [coston2-explorer.flare.network](https://coston2-explorer.flare.network) | Contract and transaction evidence |
 | Flare Developer Hub | [dev.flare.network](https://dev.flare.network) | Official FDC, FCC and network documentation |
-| Hosted application | PENDING | No hosted URL has been verified |
 
 ## Deployed contracts
 
