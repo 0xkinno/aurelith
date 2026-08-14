@@ -1,0 +1,38 @@
+{
+  "network": "Flare Testnet Coston2",
+  "chainId": 114,
+  "deployedAt": "2026-08-13T22:53:28.689Z",
+  "deployer": "0xe4B713e3cF2E550147f9cc09d751f276E7B9A64e",
+  "compilerVersion": "0.8.28",
+  "abiVersion": "AURELITH_PROTOCOL_V1",
+  "commitHash": null,
+  "contracts": {
+    "core": {
+      "address": "0x9D0ED40615845ee6134F475AcCF35e0412CA1EdF",
+      "deploymentTransactionHash": "0x1da42ef3577d01e1416eb8118e17c94f2e1ddc4e103a0a88ba92fc4e0d825355",
+      "deploymentBlock": 34026487
+    },
+    "fccInstructionSender": {
+      "address": "0xFa34633c12e5A93166FAA0E54A3D50Fd62Ae8D49",
+      "deploymentTransactionHash": "0x05a21548e40221e892ce7e76a2e7c37b1afb56452715d8bad97f059ed0bc475d",
+      "deploymentBlock": 34026489
+    }
+  },
+  "flareDependencies": {
+    "fdcVerification": "0x906507E0B64bcD494Db73bd0459d1C667e14B933",
+    "flareTeeManager": "0x1a9C4A0f9D76c0b1D91d22E24E573a9b377618aE"
+  },
+  "fcc": {
+    "extensionId": "66235",
+    "teeIds": [
+      "0xca183535EfE09a97616b385d4F8334e35F088887"
+    ],
+    "extProxyUrl": "https://earn-surface-hoping-lottery.trycloudflare.com",
+    "registrationTransactionHash": "0xe6919d1adece13f32ba39cf9e4ed4e77f13f3acba32411822df9246caed2ab9f",
+    "coreBindingTransactionHash": "0x252deb4a89a73d9015cbcdbf0dcf9066fbb2713e0248fdeb3e9b7328d265a92c",
+    "teeUrls": [
+      "https://earn-surface-hoping-lottery.trycloudflare.com"
+    ],
+    "senderExtensionResolutionTransactionHash": "0xc0c207ce61acba8fd8978f21a2059223d80b0e3cd7e6d1a1357e909cecaa1676"
+  }
+}

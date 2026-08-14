@@ -1,0 +1,23 @@
+node_modules/
+.next/
+artifacts/
+cache/
+coverage/
+typechain-types/
+.env
+.env.local
+.env.*.local
+!.env.example
+contracts/deployments/*.local.json
+npm-debug.log*
+instruction.md
+competitive_audit.md
+docs/COMPETITIVE_AUDIT.md
+public/images/Jorqeth landing page UI reference sample.png
+public/images/jorqeth reference UI image.png
+.research/
+fcc-extension/.env
+fcc-extension/config/extension.env
+fcc-extension/config/deploy.log
+fcc-extension/config/proxy/*.toml
+!fcc-extension/config/proxy/*.example

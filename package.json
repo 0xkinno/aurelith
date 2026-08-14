@@ -1,0 +1,67 @@
+{
+  "name": "aurelith",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "npm run test:contract && npm run test:frontend",
+    "test:contract": "hardhat test",
+    "test:frontend": "vitest run",
+    "contract:compile": "hardhat compile",
+    "abi:frontend": "tsx contracts/scripts/generate-frontend-abi.ts",
+    "lifecycle:coston2": "hardhat run contracts/scripts/complete-lifecycle.ts --network coston2",
+    "contract:gate": "npm run contract:compile && npm run test:contract && npm run abi:frontend",
+    "deploy:coston2": "npm run contract:gate && hardhat run contracts/scripts/deploy.ts --network coston2"
+  },
+  "dependencies": {
+    "@flarenetwork/flare-periphery-contracts": "^0.1.52",
+    "@reown/appkit": "^1.8.23",
+    "@reown/appkit-adapter-wagmi": "^1.8.23",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@tanstack/react-query": "^5.85.3",
+    "@wagmi/connectors": "6.2.0",
+    "@wagmi/core": "2.22.1",
+    "@x402/core": "^2.22.0",
+    "@x402/evm": "^2.22.0",
+    "@x402/svm": "^2.22.0",
+    "next": "^15.4.6",
+    "pino-pretty": "^13.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "viem": "^2.33.3",
+    "wagmi": "^2.16.3",
+    "zod": "^4.0.17"
+  },
+  "overrides": {
+    "@reown/appkit-adapter-wagmi": {
+      "@wagmi/connectors": "6.2.0",
+      "@wagmi/core": "2.22.1"
+    }
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
+    "@nomicfoundation/hardhat-ethers": "^3.1.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.1.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.2.1",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "chai": "^4.5.0",
+    "dotenv": "^17.2.1",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.26.2",
+    "hardhat-gas-reporter": "^2.3.0",
+    "jsdom": "^26.1.0",
+    "solidity-coverage": "^0.8.16",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
