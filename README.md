@@ -56,7 +56,7 @@ The product screenshot captures are shown below:
 
 | Accountability Details | Seettlement Dashboard |
 |:---:|:---:|
-| <img src="docs/screenshots/aurelith-accountability.png" alt="Accountability"="100%" /> | <img src="docs/screenshots/aurelith-settlement.png" alt="Settlement" width="100%" /> |
+| <img src="docs/screenshots/aurelith-accountability.png" alt="Accountability" width="100%" /> | <img src="docs/screenshots/aurelith-settlement.png" alt="Settlement" width="100%" /> |
 | **Proof Dashboard** | **Security Dashboard** |
 | <img src="docs/screenshots/aurelith-proof.png" alt="Proof Dashboard" width="100%" /> | <img src="docs/screenshots/aurelith-security.png" alt="Security Dashboard" width="100%" /> |
 
